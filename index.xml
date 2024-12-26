@@ -1,0 +1,82 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+<title>Posts on Abhi's Blog</title>
+<link>https://qbtaumai.pages.dev/posts/</link>
+<description>Recent content in Posts on Abhi's Blog</description>
+<generator>Hugo -- gohugo.io</generator>s
+<language>en-us</language>
+<copyright>© Abhi</copyright>
+<lastBuildDate>Tue, 29 Oct 2024 00:00:00 +0000</lastBuildDate>
+<atom:link href="https://qbtaumai.pages.dev/posts/index.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>Overriding Default Values of Android Constructor Parameters at Runtime</title>
+<link>https://qbtaumai.pages.dev/posts/fine/</link>
+<pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
+<guid>https://qbtaumai.pages.dev/posts/fine/</guid>
+<description>Ever found yourself needing to override default values within an Android class constructor without modifying the original codebase? Here, we’ll explore a solution using two powerful tools: Frida and Pine. These dynamic hooking libraries allow you to modify method parameters and manipulate their values at runtime, making testing, customization, and reverse engineering a breeze. Note: For complete sample code and setup, check out the Fine GitHub Repo, which combines Frida and Pine with multi-architecture and rootless hooking support.</description>
+</item>
+<item>
+<title>🛠️ How to Add Toast & Dialogue Box to Flutter Apps via Smali 📱</title>
+<link>https://qbtaumai.pages.dev/posts/flutter_toast/</link>
+<pubDate>Sat, 21 Sep 2024 00:00:00 +0000</pubDate>
+<guid>https://qbtaumai.pages.dev/posts/flutter_toast/</guid>
+<description>If you&rsquo;re familiar with modifying Android apps, you know that smali can be an excellent tool for tinkering with app behavior. Today, we&rsquo;re diving into adding Toast messages and Dialogue Boxes in Flutter apps by modifying the MainActivity.smali file. You may have encountered crashes when trying to do this on your own, but don’t worry — I’ll guide you through the correct way to do it manually. Although there are external tools like Cloud Injection that can help with this, doing it manually offers more control.</description>
+</item>
+<item>
+<title>Comprehensive Guide for Setting Up and Using TIK Tool on Debian WSL</title>
+<link>https://qbtaumai.pages.dev/posts/tik_rom_setup/</link>
+<pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
+<guid>https://qbtaumai.pages.dev/posts/tik_rom_setup/</guid>
+<description>This guide provides a detailed, step-by-step process for setting up Debian on Windows Subsystem for Linux (WSL), installing necessary tools, and using the TIK tool for ROM modification. Setting Up Debian on WSL Install Debian from Microsoft Store: Open the Microsoft Store and install Debian: Click Here Set Up Username and Password: After installation, open Debian and set up your username and password. Update and Install Necessary Packages: Run the following commands to update and install necessary packages: sudo apt-get update sudo apt dist-upgrade sudo apt install -y man-db wget curl python3 python3-pip python3-tk git zip android-sdk-libsparse-utils Setting Up TIK Tool Clone the TIK Tool Repository:</description>
+</item>
+<item>
+<title>ARM Architecture Debate: SL vs. THR Registers in Dart AOT true/false</title>
+<link>https://qbtaumai.pages.dev/posts/dart_arm_registers/</link>
+<pubDate>Sat, 31 Aug 2024 00:00:00 +0000</pubDate>
+<guid>https://qbtaumai.pages.dev/posts/dart_arm_registers/</guid>
+<description>The Debate: A lively discussion took place in a Telegram group called TDOHex Discussion in April 2024, where two individuals debated which register is used for handling true/false in ARM architecture within Dart Ahead-of-Time (AOT) compilation. While it was an insightful exchange, it&rsquo;s unfortunate that in a group of over 1,000 members, only these two showed interest in the topic. Now, almost half a year later in September 2024, the discussion remains unresolved, with no further contributions from others.</description>
+</item>
+<item>
+<title>SigTool: APK Signature Analyzer Pro - Review and Enhancements 🚀</title>
+<link>https://qbtaumai.pages.dev/posts/sigtool/</link>
+<pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
+<guid>https://qbtaumai.pages.dev/posts/sigtool/</guid>
+<description>Overview: SigTool is a robust open-source tool tailored for developers and security analysts. It excels at in-depth APK signature analysis, offering features such as: Signature Extraction &amp; Hash Calculation 🛠️ Java-style HashCode Calculation 📋 PEM Certificate Generation 📜 It’s a go-to for anyone diving deep into APKs, but like any tool, there’s always room for improvement. Below, I&rsquo;ll highlight some quirks I encountered and how I went about fixing them.</description>
+</item>
+<item>
+<title>How Dart Loads Objects from Its Object Pool on ARM64 and ARM32 🛠️</title>
+<link>https://qbtaumai.pages.dev/posts/dart_objects/</link>
+<pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+<guid>https://qbtaumai.pages.dev/posts/dart_objects/</guid>
+<description>Dart&rsquo;s object loading mechanism differs slightly depending on the architecture it&rsquo;s running on, be it ARM64 (ARMv8) or ARM32 (ARMv7). In this guide, we&rsquo;ll explore how Dart loads objects from its object pool on these architectures and provide examples to make it clearer. 1️⃣ Dart Object Loading on ARM64 (ARMv8) In ARM64, Dart loads objects using the following pattern: Example: If an object is located at address 0x95a7, the loading process would look like this:</description>
+</item>
+<item>
+<title>Blutter Termux Guide: Setup, Usage, and Updates 📱💻</title>
+<link>https://qbtaumai.pages.dev/posts/blutter_termux/</link>
+<pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate>
+<guid>https://qbtaumai.pages.dev/posts/blutter_termux/</guid>
+<description>Blutter is a powerful tool for reverse engineering Flutter apps, and you can run it directly on your Android device using Termux. Here&rsquo;s a complete guide on how to install, use, and update Blutter in Termux. Let&rsquo;s dive in! 🎥 Video Guide: While there are video guides available, they might not be very helpful due to being outdated: Old Video Guide New Video Guide But don&rsquo;t worry, this text guide will get you up and running smoothly!</description>
+</item>
+<item>
+<title>How Lucky Patcher works on some flutter apps."</title>
+<link>https://qbtaumai.pages.dev/posts/lpf/</link>
+<pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+<guid>https://qbtaumai.pages.dev/posts/lpf/</guid>
+<description>Ever wondered how Lucky Patcher can manipulate Flutter apps, especially those written in Dart? Dart is an object-oriented programming language with a C-style syntax, and Flutter is an open-source framework developed by Google for building natively compiled, multi-platform applications from a single codebase using dart and during Android releases, it packages the Dart code inside the lib folder. So, how does Lucky Patcher work its magic on these apps? The Answer 💡 The answer lies in the FlutterInappPurchase package, which many Flutter apps use.</description>
+</item>
+<item>
+<title>Good News for Non-Root Users: View Data on Non-Rooted Devices with MT Manager 🎉</title>
+<link>https://qbtaumai.pages.dev/posts/mt_local_storage/</link>
+<pubDate>Sun, 19 Mar 2023 00:00:00 +0000</pubDate>
+<guid>https://qbtaumai.pages.dev/posts/mt_local_storage/</guid>
+<description>MT Manager just got a fantastic update! 🚀 Now, non-root users can easily access and view data on rooted devices, making it a breeze to find the dump.dart file without needing root access or App Cloner. Here&rsquo;s how you can take advantage of this update. Why Is This Exciting? 🤩 ~ No Root Needed: You can now access the data without rooting your device. ~ No App Cloner Required: Forget about using App Cloner.</description>
+</item>
+<item>
+<title>How to Use reFlutter for Extracting Dart Code from APKs 🛠️</title>
+<link>https://qbtaumai.pages.dev/posts/reflutter_usage/</link>
+<pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
+<guid>https://qbtaumai.pages.dev/posts/reflutter_usage/</guid>
+<description>ReFlutter is a handy tool that allows you to reverse engineer Flutter apps and extract Dart code, monitor network trafic from APKs. Here’s a step-by-step guide on how to use reFlutter: 1. Installation 🖥️ First, you need to install reFlutter. Open your terminal and run the following command: pip3 install reflutter==0.7.8 This will install the reFlutter tool on your system. 2. Android Setup via Termux 📲 For Android users using Termux, follow these steps:</description>
+</item>
+</channel>
+</rss>
