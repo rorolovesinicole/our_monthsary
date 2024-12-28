@@ -224,8 +224,13 @@
   }
   
   .site-description {
-    display: flex;
     justify-content: space-between;
+    border-left: 3px solid var(--bordercl);
+    font-size: 12px;
+    font-style: italic;
+    color: #737373;
+    margin: 0;
+    padding-left: 1em;
   }
   .tags li::before {
     content: "🏷 ";
